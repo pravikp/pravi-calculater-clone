@@ -1,0 +1,65 @@
+.cal {
+  text-align: center;
+}
+
+.container {
+  width: 460px;
+  height: 540px;
+  background-color: rgb(52, 52, 52);
+  margin: auto;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.brand {
+  color: white;
+  font-size: 1.5rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 10px;
+}
+
+#screen {
+  height: 80px;
+  width: 440px;
+  background-color: rgb(178, 212, 228);
+  margin: 5px;
+  font-size: 4rem;
+  text-align: right;
+  border-radius: 10px;
+  pointer-events: none;
+}
+
+.button-number {
+  background-color: rgb(78, 77, 77);
+  color: white;
+  height: 70px;
+  width: 90px;
+  font-size: 2.5rem;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+.button-operater {
+  background-color: rgb(132, 132, 130);
+  color: white;
+  height: 70px;
+  width: 90px;
+  font-size: 2.5rem;
+  margin: 10px;
+  border-radius: 15px
+}
+
+.button-clear {
+  background-color: red;
+  color: white;
+  height: 70px;
+  width: 90px;
+  font-size: 2.5rem;
+  margin: 10px;
+  border-radius: 15px
+}
+.button-number:hover,
+.button-operater:hover,
+.button-clear:hover{
+  border: 5px solid greenyellow;
+}
